@@ -431,6 +431,10 @@ em,i{font-family:var(--serif-en)}
   content:"";position:absolute;left:0;bottom:4px;width:100%;height:.32em;
   background:rgba(180,113,79,.18);z-index:-1;
 }
+.about__lead-skills{
+  display:block;font-size:clamp(13px,1.7vw,20px);font-weight:500;
+  letter-spacing:.06em;color:var(--ink-soft);line-height:2;
+}
 .about__text{color:var(--ink-soft);font-size:15.5px;margin-bottom:16px;letter-spacing:.03em}
 
 /* 高亮句 + 学历方块 */
